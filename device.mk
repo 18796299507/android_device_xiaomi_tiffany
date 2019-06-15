@@ -35,9 +35,10 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    MiuiCamera \
+    Snap \
     camera.msm8953 \
     libmm-qcamera
+    #MiuiCamera
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
@@ -63,5 +64,5 @@ PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_8953
 
 # Call the camera setup
-$(call inherit-product, vendor/xiaomi/MiuiCamera/MiuiCamera-vendor.mk)
+#$(call inherit-product, vendor/xiaomi/MiuiCamera/MiuiCamera-vendor.mk)
 $(call inherit-product, vendor/xiaomi/MiuiCamera/tiffany.mk)
